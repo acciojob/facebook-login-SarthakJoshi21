@@ -1,1 +1,61 @@
 /*  your css code here. If applicable */
+
+    .email{
+        width: 85%;
+        justify-content: center;
+        padding: 10px;
+        margin: 10px;
+        margin-left: 50px;
+        padding-left: 50px;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+    .password{
+        width: 85%;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin: 10px;
+        margin-left: 50px;
+        padding-left: 50px;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+    .fbButt{
+        text-align: center;
+        width: 90%;
+        padding: 10px;
+        margin: 10px;
+        margin-left: 50px;
+        padding-left: 50px;
+        border-radius: 10px;
+        background-color: #0568E5;
+        color: white;
+    
+        border: 1px solid white;
+    }
+    .forgot{
+        color: #0568E5;
+        background-color: white;
+        border: 1px solid white;
+        padding: 10px;
+        margin: 10px;
+        margin-left: 30px;
+        padding-left: 30px;
+
+    }
+    ::placeholder{
+        text-align:left;
+    }
+    .newAcc{
+        text-align: center;
+        width: 90%;
+        padding: 10px;
+        margin: 10px;
+        margin-left: 50px;
+        padding-left: 50px;
+        border-radius: 10px;
+        background-color: #45E505;
+        color: white;
+        border: 1px solid white;
+    }
