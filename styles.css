@@ -1,61 +1,89 @@
-/*  your css code here. If applicable */
+body {
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
 
-    .email{
-        width: 85%;
-        justify-content: center;
-        padding: 10px;
-        margin: 10px;
-        margin-left: 50px;
-        padding-left: 50px;
-        border-radius: 10px;
-        border: 1px solid black;
-    }
-    .password{
-        width: 85%;
-        justify-content: center;
-        align-items: center;
-        padding: 10px;
-        margin: 10px;
-        margin-left: 50px;
-        padding-left: 50px;
-        border-radius: 10px;
-        border: 1px solid black;
-    }
-    .fbButt{
-        text-align: center;
-        width: 90%;
-        padding: 10px;
-        margin: 10px;
-        margin-left: 50px;
-        padding-left: 50px;
-        border-radius: 10px;
-        background-color: #0568E5;
-        color: white;
-    
-        border: 1px solid white;
-    }
-    .forgot{
-        color: #0568E5;
-        background-color: white;
-        border: 1px solid white;
-        padding: 10px;
-        margin: 10px;
-        margin-left: 30px;
-        padding-left: 30px;
+.container {
+    display: flex;
+    align-items: flex-start;
+}
 
-    }
-    ::placeholder{
-        text-align:left;
-    }
-    .newAcc{
-        text-align: center;
-        width: 90%;
-        padding: 10px;
-        margin: 10px;
-        margin-left: 50px;
-        padding-left: 50px;
-        border-radius: 10px;
-        background-color: #45E505;
-        color: white;
-        border: 1px solid white;
-    }
+.left {
+    width: 450px;
+    margin-top: 70px;
+    display: inline-block;
+}
+
+.left img {
+    width: 100%;
+}
+
+.left p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+    gap: 10px;
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button {
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1558a3;
+}
+
+a {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.signup {
+    background-color: #42b72a;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.signup:hover {
+    background-color: #36a420;
+}
